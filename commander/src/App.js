@@ -89,7 +89,7 @@ class App extends React.Component {
         },
 
         'resign game': () => { 
-          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/resign/', {
+          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/resign', {
             method: 'POST',
             headers: {
               'Accept': 'application',
@@ -100,7 +100,7 @@ class App extends React.Component {
         },
 
         'abort game': () => { 
-          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/abort/', {
+          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/abort', {
             method: 'POST',
             headers: {
               'Accept': 'application',
