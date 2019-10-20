@@ -4,11 +4,11 @@ import './board.css';
 export default class Board extends React.Component {
 
     render() {
-        console.log(this.props)
-
         return (
             <div>
-                {this.props.hello ? <SaidHello /> : <Welcome />}
+                <h1>{this.props.stage}</h1>
+                
+                {this.props.hello ? <MicWorks /> : <MicCheck />}
 
                 <img src={"http://www.fen-to-image.com/image/"+this.props.size+"/"+this.props.fen} alt="Chess Board" />
             </div>
@@ -17,14 +17,15 @@ export default class Board extends React.Component {
     }
 }
 
-class Welcome extends React.Component {    
+
+class MicCheck extends React.Component {    
     render() {
-        return <div>Say "hello" to check your mic!</div>;
+        return <p>Welcome, say "hello" to test your mic!</p>;
     }
 }
 
-class SaidHello extends React.Component {
+class MicWorks extends React.Component {
     render() {
-        return <div>Hey, hello! Your mic works!</div>;
+        return <p>Hey there, your mic works! Good luck on your game!</p>;
     }
 }

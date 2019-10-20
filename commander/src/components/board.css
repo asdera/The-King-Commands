@@ -2,3 +2,12 @@ img {
     width: 600px;
     height: 600px;
 }
+
+:root {
+    text-align: center;
+    margin: 30px;
+    background-image: url("../backdrop.png");
+    background-position: right 50% bottom 80%;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
