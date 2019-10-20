@@ -10,7 +10,7 @@ export default class Board extends React.Component {
                 
                 {this.props.hello ? <MicWorks /> : <MicCheck />}
 
-                <img src={"http://www.fen-to-image.com/image/"+this.props.size+"/"+this.props.fen} alt="Chess Board" />
+                <img src={"https://www.fen-to-image.com/image/"+this.props.size+"/"+this.props.fen} alt="Chess Board" />
             </div>
             
         );
