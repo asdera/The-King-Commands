@@ -28,7 +28,7 @@ class App extends React.Component {
 
     if (annyang) {
       this.gameState(function () {
-        console.log(this.state)
+        // console.log(this.state)
         annyang.state = this.state;
       });
 
@@ -39,6 +39,7 @@ class App extends React.Component {
         },
         'gary': () => { 
           console.log("goose")
+          this.setState({ hello: true })
         },
 
         'castle': () => {
@@ -217,8 +218,8 @@ class App extends React.Component {
 
       this.state.fenBoard.forEach(function(row, i) {
         row.forEach(function(p, j) {
-          if (p === symbol) {
-            const uci = ("abcdefgh".slice(j, j+1) + (8-i) + square).toLowerCase();
+          const uci = ("abcdefgh".slice(j, j+1) + (8-i) + square).toLowerCase();
+          if (p === symbol && !(symbol === "p" && Math.abs("abcdefgh".indexOf(uci[0]) - "abcdefgh".indexOf(uci[2])) > 1)) {
             console.log(uci);
             fetch('https://lichess.org/api/bot/game/'+id+'/move/'+uci, {
               method: 'POST',
@@ -248,7 +249,7 @@ class App extends React.Component {
       },
     }).then(response => response.json())
     .then(data => {
-      console.log(data)
+      // console.log(data)
       if (hasToken && data.nowPlaying) {
         if (data.nowPlaying.length) {
           this.setState({
@@ -269,10 +270,10 @@ class App extends React.Component {
         
         setTimeout(function() {
           this.gameState(function () {
-            console.log(this.state)
+            // console.log(this.state)
             annyang.state = this.state;
           });
-        }.bind(this), 6000);
+        }.bind(this), 1000);
       } else {
         this.setState({
           needsToken: 0,
