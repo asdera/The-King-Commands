@@ -88,6 +88,28 @@ class App extends React.Component {
           })
         },
 
+        'resign game': () => { 
+          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/resign/', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application',
+              'Authorization': 'Bearer ' + authToken,
+              'Content-Type': 'application/json',
+            },
+          })
+        },
+
+        'abort game': () => { 
+          fetch('https://lichess.org/api/bot/game/'+this.state.gameId+'/abort/', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application',
+              'Authorization': 'Bearer ' + authToken,
+              'Content-Type': 'application/json',
+            },
+          })
+        },
+
         '*uci': {'regexp': /^[a-h][1-8] [a-h][1-8]$/, 'callback': this.moveCommand},
 
         'piece *move': {'regexp': /[a-h][1-8]$/, 'callback': this.moveCommand},
