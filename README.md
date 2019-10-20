@@ -15,3 +15,4 @@ Algebraic Notation | Command a piece with any square on the board (Ex. Bishop c4
 Pawn Moves | Commanding a single square will interpret a pawn move (Ex. e4, h3)
 Universal Chess Interface | Describe to two squares for ambiguous moves (Ex. h1e1, d1h5)
 Castling | Castles short or long (Ex. castle, castle long)
+Abort or Resign | Abort or resigns the game (Ex. abort game, resign game)
