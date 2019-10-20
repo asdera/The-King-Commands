@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/The-King-Commands/static/css/main.ae77683a.chunk.css",
-    "main.js": "/The-King-Commands/static/js/main.f2d8eb58.chunk.js",
-    "main.js.map": "/The-King-Commands/static/js/main.f2d8eb58.chunk.js.map",
+    "main.css": "/The-King-Commands/static/css/main.7e558068.chunk.css",
+    "main.js": "/The-King-Commands/static/js/main.3162ebe2.chunk.js",
+    "main.js.map": "/The-King-Commands/static/js/main.3162ebe2.chunk.js.map",
     "runtime-main.js": "/The-King-Commands/static/js/runtime-main.35a2375f.js",
     "runtime-main.js.map": "/The-King-Commands/static/js/runtime-main.35a2375f.js.map",
     "static/js/2.7469bf70.chunk.js": "/The-King-Commands/static/js/2.7469bf70.chunk.js",
     "static/js/2.7469bf70.chunk.js.map": "/The-King-Commands/static/js/2.7469bf70.chunk.js.map",
     "index.html": "/The-King-Commands/index.html",
-    "precache-manifest.006d03a4ffa72110ceba1ed98a27fe10.js": "/The-King-Commands/precache-manifest.006d03a4ffa72110ceba1ed98a27fe10.js",
+    "precache-manifest.b957773c26a8d8dd9fa9768d0ac57df8.js": "/The-King-Commands/precache-manifest.b957773c26a8d8dd9fa9768d0ac57df8.js",
     "service-worker.js": "/The-King-Commands/service-worker.js",
-    "static/css/main.ae77683a.chunk.css.map": "/The-King-Commands/static/css/main.ae77683a.chunk.css.map",
+    "static/css/main.7e558068.chunk.css.map": "/The-King-Commands/static/css/main.7e558068.chunk.css.map",
     "static/media/board.css": "/The-King-Commands/static/media/backdrop.38c90834.png"
   },
   "entrypoints": [
     "static/js/runtime-main.35a2375f.js",
     "static/js/2.7469bf70.chunk.js",
-    "static/css/main.ae77683a.chunk.css",
-    "static/js/main.f2d8eb58.chunk.js"
+    "static/css/main.7e558068.chunk.css",
+    "static/js/main.3162ebe2.chunk.js"
   ]
 }
