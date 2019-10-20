@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/The-King-Commands/static/css/main.7e558068.chunk.css",
-    "main.js": "/The-King-Commands/static/js/main.fcfd05f4.chunk.js",
-    "main.js.map": "/The-King-Commands/static/js/main.fcfd05f4.chunk.js.map",
+    "main.js": "/The-King-Commands/static/js/main.6c1c77f4.chunk.js",
+    "main.js.map": "/The-King-Commands/static/js/main.6c1c77f4.chunk.js.map",
     "runtime-main.js": "/The-King-Commands/static/js/runtime-main.35a2375f.js",
     "runtime-main.js.map": "/The-King-Commands/static/js/runtime-main.35a2375f.js.map",
     "static/js/2.7469bf70.chunk.js": "/The-King-Commands/static/js/2.7469bf70.chunk.js",
     "static/js/2.7469bf70.chunk.js.map": "/The-King-Commands/static/js/2.7469bf70.chunk.js.map",
     "index.html": "/The-King-Commands/index.html",
-    "precache-manifest.e04dbae3f9be1bc4b517f2edc1a7a212.js": "/The-King-Commands/precache-manifest.e04dbae3f9be1bc4b517f2edc1a7a212.js",
+    "precache-manifest.02b7bd3c6d83040c2d190b3d02b4540d.js": "/The-King-Commands/precache-manifest.02b7bd3c6d83040c2d190b3d02b4540d.js",
     "service-worker.js": "/The-King-Commands/service-worker.js",
     "static/css/main.7e558068.chunk.css.map": "/The-King-Commands/static/css/main.7e558068.chunk.css.map",
     "static/media/board.css": "/The-King-Commands/static/media/backdrop.38c90834.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.35a2375f.js",
     "static/js/2.7469bf70.chunk.js",
     "static/css/main.7e558068.chunk.css",
-    "static/js/main.fcfd05f4.chunk.js"
+    "static/js/main.6c1c77f4.chunk.js"
   ]
 }

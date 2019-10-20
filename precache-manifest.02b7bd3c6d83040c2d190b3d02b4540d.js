@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "deb209d17d30813ab764e7658e75ae2d",
+    "revision": "b2f56437a01ddb77011517a53f86fe5a",
     "url": "/The-King-Commands/index.html"
   },
   {
-    "revision": "6966071876fa6e0b2384",
+    "revision": "63e36f800ee5d154f8de",
     "url": "/The-King-Commands/static/css/main.7e558068.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/The-King-Commands/static/js/2.7469bf70.chunk.js"
   },
   {
-    "revision": "6966071876fa6e0b2384",
-    "url": "/The-King-Commands/static/js/main.fcfd05f4.chunk.js"
+    "revision": "63e36f800ee5d154f8de",
+    "url": "/The-King-Commands/static/js/main.6c1c77f4.chunk.js"
   },
   {
     "revision": "c413335d2da534d1e70c",
