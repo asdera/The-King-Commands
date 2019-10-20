@@ -219,7 +219,7 @@ class App extends React.Component {
       this.state.fenBoard.forEach(function(row, i) {
         row.forEach(function(p, j) {
           const uci = ("abcdefgh".slice(j, j+1) + (8-i) + square).toLowerCase();
-          if (p === symbol && !(symbol === "p" && Math.abs("abcdefgh".indexOf(uci[0]) - "abcdefgh".indexOf(uci[2])) > 1)) {
+          if (p === symbol && !(symbol.toLowerCase() === "p" && Math.abs("abcdefgh".indexOf(uci[0]) - "abcdefgh".indexOf(uci[2])) > 1)) {
             console.log(uci);
             fetch('https://lichess.org/api/bot/game/'+id+'/move/'+uci, {
               method: 'POST',
